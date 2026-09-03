@@ -19,4 +19,3 @@ uvicorn
 python-dotenv
 jinja2
 imblearn
--e .
