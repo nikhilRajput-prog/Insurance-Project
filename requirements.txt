@@ -16,7 +16,7 @@ botocore
 fastapi
 python-multipart
 uvicorn
+python-dotenv
 jinja2
 imblearn
 -e .
-python-dotenv
