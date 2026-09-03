@@ -2,12 +2,11 @@ import os
 from datetime import date
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
-MONGODB_URL_KEY=os.getenv("MONGODB_URL_KEY")  # Retrieve MongoDB URL from environment variables
+MONGODB_URL_KEY = "MONGODB_URL_KEY"  # Name of the environment variable storing the MongoDB URL
 
 # For MongoDB connection
 DATABASE_NAME = "Proj1"
 COLLECTION_NAME = "Proj1-Data"
-MONGODB_URL_KEY = "MONGODB_URL_KEY"
 
 PIPELINE_NAME: str = ""
 ARTIFACT_DIR: str = "artifact"
